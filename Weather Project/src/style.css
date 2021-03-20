@@ -1,0 +1,182 @@
+.container {
+  border-radius: 10px;
+  width: 500px;
+  height: 900px;
+  background-image: url("../images/background.jpg");
+  background-size:cover;
+  font-family: 'Josefin Slab';
+  color: #ffe056;
+}
+
+h1, #header {
+  color: #ffe056;
+  font-size: 80px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+#location-search {
+  margin-left: 83.500px;
+  margin-right: 0px;
+  width: 200px;
+  height: 40px;
+  color:  #ffe056;
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(44, 36, 77, 0.7),
+    rgba(163, 90, 173, 0.3)
+  );
+border: none;
+border-radius: 25px;
+}
+
+.search-icon, #submit-button {
+background: transparent;
+border: none;
+height: 35x;
+margin-left: 0px;
+}
+
+.location-icon, #current-location-button {
+  background: transparent;
+  border-style: none;
+  height: 35px;
+  background: transparent;
+}
+
+.container-main-details {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 40px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(44, 36, 77, 0.7),
+    rgba(163, 90, 173, 0.3)
+  );
+  width: 300px;
+  height: 180px;
+  color:  #ffe056;
+  font-family: 'Josefin Slab';
+}
+
+h2 {
+ text-transform: uppercase;
+ font-size: 45px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Josefin Slab'
+}
+
+h6,
+#date {
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-family: 'Josefin Slab';
+}
+
+#current-time {
+  font-family: 'Josefin Slab';
+}
+
+.container-degree {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 300px;
+  
+}
+
+.container-degree, #temperature {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Josefin Slab';
+}
+
+.container-degree, #metric-selection {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.column-metrics {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 40px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(44, 36, 77, 0.7),
+    rgba(163, 90, 173, 0.3)
+  );
+  width: 300px;
+  line-height: 30px;
+  color:  #ffe056;
+}
+
+ul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.container-sun {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 20px;
+  width: 300px;
+}
+
+h1, #sun {
+  text-align: center;
+  font-size: 30px;
+}
+
+
+#weather-type {
+  text-transform: capitalize;
+}
+
+.container-time {
+text-align: center;
+padding: 5px; 
+color: #2e264f;
+
+}
+.my-col-1 {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+border-radius: 20px;
+
+}
+.my-col-2 {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 20px;
+}
+
+.my-col-3 {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 20px;
+}
+
+
+
+

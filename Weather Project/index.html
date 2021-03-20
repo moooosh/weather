@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/style.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="clearfix">
+            
+    <h1 id="header">WEATHER</h1>
+
+                <form id="search-bar" class="form-inline">
+                    <input class="form-control" type="search" id="location-search" placeholder="Search for a city"
+                        aria-label="Location" />
+                    </input>
+
+                    <button class="submit" type="submit" id="submit-button">
+                        <image class="search-icon" src="images/searching2.png">
+                    </button>
+
+                    <button class="current-location" type="click" id="current-location-button">
+                        <image class=location-icon src="images/location2.png">
+                    </button>
+                </form>
+    
+
+            <div class="container-main-details" id="left-column-main">
+                <h2 id="city"> </h2>
+                
+                <div class="row my-row">
+                    <div class="col">
+                
+                <h6 id="date"> </h6>
+            </div>
+                <div class="col">
+                   <h2 id="current-time"> </h2>
+                </div> 
+            </div>
+        </div>
+
+                <div class="container-degree">
+                    <div class="row justify-content-around">
+                    <div class="col-4" id="temperature">  
+                        
+                    </div>
+                        <div class="col-4" id="icon">
+                            <img src="" id="main-icon" alt=""/>
+                        </div></div>
+                     
+                        <div class="row" id="metric-selection">
+                        <div class="col-4"><a href="#" id="celsius">°C</a> || <a href="#" id="fahrenheit">°F</a></span>
+                </div></div></div>
+
+                
+            
+
+               
+            
+            <div class="column-metrics">
+                    <ul>
+                        <li id="weather-type"> </li>
+                        <li id="humidity"> %</li>
+                        <li id="wind-speed"> km/h</li>
+                    </ul>
+                
+            </div>
+
+            <div class="container-sun">
+                <div class="row justify-content-around">
+                    <div class="col-6">
+               <h1 id="sun"> SUNRISE </h1>
+                <img src="images/Sunriselarge.png" alt="sunrise">
+                <h5 id="sunrise-time">.</h5>
+                    </div>
+                    <div class="col-6">
+                        <h1 id="sun"> SUNSET </h1>
+                        <img src="images/Sunsetlarge.png" alt="sunset">
+                        <h5 id="sunset-time">.</h5>
+                    </div>
+                </div>
+                
+                </div>
+
+            <div class="container-time">
+<div class="row justify-content-around my-row">
+    <div class="col-4 my-col-1">
+    MORNING 
+<h5 id="temperature-morning">24° </h5>
+
+</div>
+<div class="col-4 my-col-2">
+    NOON
+    <h5 id="temperature-noon">28° </h5>
+</div>
+<div class="col-4 my-col-3">
+    EVENING
+    <h5 id="temperature-eve">18° </h5>
+</div>
+
+
+
+
+</div>
+
+            </div>
+        
+            <footer>
+                <br>
+            <strong> Code by Shanese Mattiske | <a href="https://pedantic-lewin-3bff31.netlify.app/">Netlify App</a> | <a href="https://github.com/moooosh/weatherapplication">GitHub</a></strong>
+            </footer>
+    </div>
+    </div>
+    
+
+    <script src="src/index.js"></script>
+
+</body>
+
+</html>
